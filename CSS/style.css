@@ -1,0 +1,97 @@
+html {background-color: #f2e9de}    
+
+a:link {
+    text-decoration: none; 
+    color: #31748f;
+}
+
+a:visited 
+{
+    text-decoration: none; 
+    color: #31748f;
+}
+
+a:hover {
+    background-color: #F8F4E3;
+  }
+  
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 260px;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #c4a7e7; 
+    color: #31748f;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    padding-left: 20 px;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    
+  }
+
+  .flex-container-1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-container-2 {
+    margin-left: 300px;
+    padding-top: 60px; 
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-container-1 > div {
+    
+    font-size: 20px;
+  }
+
+  .flex-container-2 > div {
+    
+    font-size: 10px;
+  }
+
+.placeholder_image {
+    max-width: 15px;
+    max-height: 15px;
+    min-width: 15px;
+    min-height: 15px;
+    margin-bottom: 80px;
+}
+.Contact_info{
+  background-color: #f1f1f1;
+  max-width: 150px;
+  min-width: 150px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  border: solid #6e6a86;
+  border-width: 1px;
+}
+
+#plus{
+  max-height: 10px;
+  max-width: 10px;
+}
+
+#placeholder_image {
+  padding-left: 20px;
+  min-width: 80px;
+  max-width: 80px;
+  min-height: 80px;
+  max-height: 80px;
+}
+
+.contact {
+  
+    font-size: 40px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.pages {
+    font-size: 20px;
+    padding-left: 40px;
+}
+
