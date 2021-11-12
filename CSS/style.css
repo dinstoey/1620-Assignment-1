@@ -1,6 +1,22 @@
 body {
   margin: 0;
   background-color: #f2e9de;
+  font-family: "Trirong", serif;
+}
+
+a:link {
+  text-decoration: none; 
+  color: #31748f;
+}
+
+a:visited 
+{
+  text-decoration: none; 
+  color: #31748f;
+}
+
+a:hover {
+  background-color: #F8F4E3;
 }
 
 .sidebar {
@@ -94,8 +110,8 @@ body {
 
 .buttons1 {
   flex:1;
-  background-color: rgb(47, 78, 68);
-  color: white;
+  background-color:	#56949f;
+  color: #fffaf3;
   height: 40px;
   padding-right: 10px;
   padding-left: 10px;
@@ -104,12 +120,13 @@ body {
 .buttons2 {
   flex:1;
   margin-left: 10px;
-  background-color: rgb(194, 76, 76);
-  color: white;
+  background-color: #b4637a;
+  color: #fffaf3;
   height: 40px;
   padding-right: 10px;
   padding-left: 10px;
   border-radius: 5%;
+  border-color: #6e6a86;
 }
 
 @media screen and (max-width: 800px) {
@@ -131,18 +148,18 @@ body {
 
 
 .button-close {
-  background-color: gray;
+  background-color: #817c9c;
   flex:1;
-  color: white;
+  color: #fffaf3;
   height: 40px;
   padding-right: 10px;
   padding-left: 10px;
   border-radius: 5%;
 }
 .button-edit {
-  background-color: green;
+  background-color: #9ccfd8;
   flex:1;
-  color: white;
+  color: #fffaf3;
   height: 40px;
   margin-right: 30px;
   padding-right: 10px;
