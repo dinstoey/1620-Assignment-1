@@ -81,6 +81,25 @@ a:hover {
   border-radius: 50%;
 }
 
+.pic-container {
+  display: flex;
+  align-items: left;
+  justify-content: center
+}
+
+.placeholder-image2 {
+  flex-basis: 40%;
+  margin-left: 20px;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+}
+
 .contact-row {
   margin: 0 auto;
 }
