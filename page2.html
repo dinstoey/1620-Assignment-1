@@ -8,43 +8,34 @@
     <title>Assignment 1</title>
   </head>
 
-
-    <body>
-
-    <div id="MySidenav" class="sidenav">
-        <div class= "contact"><a href="#">Contacts</a> <br></div>
-        <a class = "pages" href="#">Create new contact+</a> <br>
-        <a class = "pages" href="#">Show favorites</a> <br>
+<body>
+    <div class="sidebar">
+      <div class= "contact">
+      <a href="#">Contacts</a><br>
       </div>
-
-
-    <div class = "flex-container-2">
-        <div class = "placeholder_image">
-            <img id= "placeholder_image" src = "placeholder-image-person-jpg.jpg" alt= "placeholder image">
-        </div>
-
-        <div class = "Contact_info">
-            Contact Name
-        </div>
-        <div class = "C1">
-        <div class = "Contact_info">
-            Contact Phone 
-        </div>
+      <a class = "pages" href="#">Create new contact+</a> <br>
+      <a class = "pages" href="#">Show favorites</a> <br>
+    </div>
     
+    <div class = "contact-container">
+        <img class="placeholder-image" src="placeholder-image-person-jpg.jpg" alt= "placeholder image">
+        <input class = "contact-info" placeholder="Contact Name">
+        <div class="contact-row">
+            <input class="contact-info" placeholder="Contact Phone"/> 
+            <img class="plus" src="plus.png"/>
+        </div>
+        <div class="contact-row">
+            <input class="contact-info" placeholder="Contact Address"/> 
+            <img class="plus" src="plus.png"/>
+        </div>
+        <div class="contact-row">
+            <input class="contact-info" placeholder="Contact Email"/> 
+            <img class="plus" src="plus.png"/>
+        </div>
+        <div class="button-container">
+            <button class="buttons1" >Save Contact</button>
+            <button class="buttons2">Cancel</button>
+        </div>
     </div>
-        <div class = "Contact_info">
-            Contact Address
-        </div>
-      
-        <div class = "Contact_info">
-            Contact Email
-        </div>
-        
-        <div class = "bottons">
-            
-        </div>
-    </div>
+</body>
 
-
-
-    </body> 
